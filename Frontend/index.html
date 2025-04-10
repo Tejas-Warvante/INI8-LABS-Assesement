@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 User Registration</h1>
+
+    <form id="registrationForm">
+      <input type="hidden" id="userId" />
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="date" id="dob" required />
+      <button type="submit" id="submitBtn">Add User</button>
+    </form>
+
+    <div class="user-list" id="userList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
